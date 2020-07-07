@@ -1,0 +1,21 @@
+.CardList {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.CardList .Card:nth-child(1) h4 {
+  color: #496B97;
+}
+
+.CardList .Card:nth-child(2) h4 {
+  color: #85EBDE;
+}
+
+.CardList .Card:nth-child(3) h4 {
+  color: #F8C767;
+}
+
+.CardList .Card:nth-child(4) h4 {
+  color: var(--orange-secondary);
+}

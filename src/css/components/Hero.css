@@ -1,0 +1,17 @@
+.Hero {
+  margin: 0 22px 45px;
+  border-top: 2px solid var(--gray-primary);
+  border-bottom: 2px solid var(--gray-primary);
+  padding: 29px 0;
+  text-align: center;
+}
+
+.Hero h1 {
+  font-size: 72px;
+  color: var(--gray-secondary);
+}
+
+.Hero h2 {
+  font-size: 46px;
+  color: var(--gray-primary);
+}
