@@ -1,0 +1,19 @@
+.Button-Menu-Active {
+  padding: 5px 26px;
+  border: none;
+  background-color: var(--orange-secondary);
+  color: var(--white-primary);
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.Button-Menu {
+  padding: 5px 26px;
+  border: none;
+  background-color: transparent;
+  color: var(--gray-primary);
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}

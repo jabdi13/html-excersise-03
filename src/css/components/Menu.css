@@ -1,0 +1,12 @@
+.Menu {
+  display: flex;
+}
+
+.Menu li {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.Menu li:first-child {
+  margin-left: 0;
+}
