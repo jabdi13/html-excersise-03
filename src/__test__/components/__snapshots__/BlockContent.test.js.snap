@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockContent Snapshot Comprobar la UI del componente BlockContent 1`] = `
+<div
+  className="Block-Content"
+>
+  <h3>
+    Título
+  </h3>
+  <p
+    className="Content"
+  >
+    Some text
+  </p>
+  <a
+    className="Button"
+    href=""
+  >
+    Leer más
+  </a>
+</div>
+`;

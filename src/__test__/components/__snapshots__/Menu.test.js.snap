@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Snapshot Comprobar la UI del componente Menu 1`] = `
+<ul
+  className="Menu"
+>
+  <li
+    className="Button-Menu-Active"
+  >
+    Inicio
+  </li>
+  <li
+    className="Button-Menu"
+  >
+    Acerca
+  </li>
+  <li
+    className="Button-Menu"
+  >
+    Servicios
+  </li>
+  <li
+    className="Button-Menu"
+  >
+    Productos
+  </li>
+  <li
+    className="Button-Menu"
+  >
+    Contacto
+  </li>
+</ul>
+`;

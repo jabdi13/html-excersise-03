@@ -6,8 +6,8 @@ const Card = ({image, title, body}) => {
     <figure className="Card">
       <img src={image} alt="" />
       <figcaption>
-      <h4>{title}</h4>
-      <p>{body}</p>
+        <h4>{title}</h4>
+        <p>{body}</p>
       </figcaption>
     </figure>
   );

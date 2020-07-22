@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList Snapshot Comprobar la UI del componente CardList 1`] = `
+<div
+  className="CardList"
+>
+  <figure
+    className="Card"
+  >
+    <img
+      alt=""
+      src="../src/images/dudes 1.jpg"
+    />
+    <figcaption>
+      <h4>
+        Consultoría
+      </h4>
+      <p>
+        Duis autem velm iriure dolor in hendrerit vulputate...
+      </p>
+    </figcaption>
+  </figure>
+  <figure
+    className="Card"
+  >
+    <img
+      alt=""
+      src="../src/images/plant.png"
+    />
+    <figcaption>
+      <h4>
+        Formación
+      </h4>
+      <p>
+        Veliesse molestie consequat vel illum dolore...
+      </p>
+    </figcaption>
+  </figure>
+  <figure
+    className="Card"
+  >
+    <img
+      alt=""
+      src="../src/images/images3.png"
+    />
+    <figcaption>
+      <h4>
+        Análisis
+      </h4>
+      <p>
+        Feugiat nulla facilisis at vero eroes et accumsan...
+      </p>
+    </figcaption>
+  </figure>
+  <figure
+    className="Card"
+  >
+    <img
+      alt=""
+      src="../src/images/images4.png"
+    />
+    <figcaption>
+      <h4>
+        Investigación
+      </h4>
+      <p>
+        Dignissim qui blandit praent luptatum...
+      </p>
+    </figcaption>
+  </figure>
+</div>
+`;

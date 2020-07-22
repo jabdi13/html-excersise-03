@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Snapshot Comprobar la UI del componente Card 1`] = `
+<figure
+  className="Card"
+>
+  <img
+    alt=""
+    src="../src/images/dudes 1.jpg"
+  />
+  <figcaption>
+    <h4>
+      Consultoría
+    </h4>
+    <p>
+      Duis autem velm iriure dolor in hendrerit vulputate...
+    </p>
+  </figcaption>
+</figure>
+`;
