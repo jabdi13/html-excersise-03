@@ -1,8 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/components/Footer.css';
 import BlockContent from './BlockContent';
 
 const Footer = () => {
+
+  const [count, setCount] = useState(0);
+  const eventComposed = new Event('composed');
+  const eventButtons = new Event('changeColorButtons');
+
+  const handleClick = (e, eventComposed, eventButtons) => {
+    const { target } = e;
+    e.target.dispatchEvent(eventComposed);
+    e.target.dispatchEvent(eventButtons);
+
+    setCount(count + 1);
+
+    console.log(`Id: ${target.id}, Count: ${count}`);
+  };
+
+  let $anchors;
+
+  useEffect(() => {
+
+    $anchors = document.querySelectorAll('button.Button');
+
+    $anchors.forEach((node) => {
+      node.addEventListener('composed', e => {
+        e.stopPropagation();
+        console.log('I\'m not propagating')
+      });
+      node.addEventListener('changeColorButtons', e => {
+        const rgb1 = Math.random() * 256;
+        const rgb2 = Math.random() * 256;
+        const rgb3 = Math.random() * 256;
+        let $lis = document.querySelectorAll('li.Button-Menu');
+        $lis.forEach($li => {
+          $li.style.backgroundColor = `rgb(${rgb1}, ${rgb2}, ${rgb3})`;
+        })
+      });
+    });
+  }, []);
   return (
     <footer className="Footer">
       <BlockContent>
@@ -19,7 +56,7 @@ const Footer = () => {
           tincidunt. Cras
           dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
         </p>
-        <a href="" className="Button">Leer más</a>
+        <button id="1" onClick={e => handleClick(e, eventComposed, eventButtons)} href="" className="Button">Leer más</button>
       </BlockContent>
       <BlockContent>
         <h3>Noticias Recientes</h3>
@@ -35,7 +72,7 @@ const Footer = () => {
           enim ad
           minim veniam, quis nostrud exerci tation.
       </p>
-        <a href="" className="Button">Más noticias</a>
+        <button id="2" onClick={e => handleClick(e, eventComposed, eventButtons)} href="" className="Button">Más noticias</button>
       </BlockContent>
       <BlockContent>
         <h3>Nuestros Servicios</h3>
@@ -48,7 +85,7 @@ const Footer = () => {
           <li>{">"} Análisis de Riesgos</li>
           <li>{">"} Formación Gerencial</li>
         </ul>
-        <a href="" className="Button">Leer más</a>
+        <button id="3" onClick={e => handleClick(e, eventComposed, eventButtons)} href="" className="Button">Leer más</button>
       </BlockContent>
     </footer>
   );

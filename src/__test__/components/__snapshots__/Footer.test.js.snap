@@ -28,12 +28,14 @@ exports[`Footer Snapshot Comprobar la UI del componente Footer 1`] = `
       </span>
        felis eu pede mollis pretum. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
     </p>
-    <a
+    <button
       className="Button"
       href=""
+      id="1"
+      onClick={[Function]}
     >
       Leer más
-    </a>
+    </button>
   </div>
   <div
     className="Block-Content"
@@ -61,12 +63,14 @@ exports[`Footer Snapshot Comprobar la UI del componente Footer 1`] = `
     >
       Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
     </p>
-    <a
+    <button
       className="Button"
       href=""
+      id="2"
+      onClick={[Function]}
     >
       Más noticias
-    </a>
+    </button>
   </div>
   <div
     className="Block-Content"
@@ -104,12 +108,14 @@ exports[`Footer Snapshot Comprobar la UI del componente Footer 1`] = `
          Formación Gerencial
       </li>
     </ul>
-    <a
+    <button
       className="Button"
       href=""
+      id="3"
+      onClick={[Function]}
     >
       Leer más
-    </a>
+    </button>
   </div>
 </footer>
 `;

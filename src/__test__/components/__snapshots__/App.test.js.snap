@@ -16,27 +16,37 @@ Array [
       className="Menu"
     >
       <li
-        className="Button-Menu-Active"
+        className="Active Button-Menu"
+        id="home"
+        onClick={[Function]}
       >
         Inicio
       </li>
       <li
         className="Button-Menu"
+        id="about"
+        onClick={[Function]}
       >
         Acerca
       </li>
       <li
         className="Button-Menu"
+        id="services"
+        onClick={[Function]}
       >
         Servicios
       </li>
       <li
         className="Button-Menu"
+        id="products"
+        onClick={[Function]}
       >
         Productos
       </li>
       <li
         className="Button-Menu"
+        id="contact"
+        onClick={[Function]}
       >
         Contacto
       </li>
@@ -147,12 +157,14 @@ Array [
         </span>
          felis eu pede mollis pretum. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
       </p>
-      <a
+      <button
         className="Button"
         href=""
+        id="1"
+        onClick={[Function]}
       >
         Leer más
-      </a>
+      </button>
     </div>
     <div
       className="Block-Content"
@@ -180,12 +192,14 @@ Array [
       >
         Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
       </p>
-      <a
+      <button
         className="Button"
         href=""
+        id="2"
+        onClick={[Function]}
       >
         Más noticias
-      </a>
+      </button>
     </div>
     <div
       className="Block-Content"
@@ -223,12 +237,14 @@ Array [
            Formación Gerencial
         </li>
       </ul>
-      <a
+      <button
         className="Button"
         href=""
+        id="3"
+        onClick={[Function]}
       >
         Leer más
-      </a>
+      </button>
     </div>
   </footer>,
 ]
